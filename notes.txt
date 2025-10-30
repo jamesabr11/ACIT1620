@@ -1,0 +1,3 @@
+to create a new branch: git swithc -c feature/nav 
+how to switch to this new branch: git switch main
+how to merge: git merge feature/nav
