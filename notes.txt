@@ -35,3 +35,9 @@ git help everyday
 Get-childItem - Force
 
 echo "# My Notes" > README.md    
+
+git add README.md notes.txt
+
+git commit -m "Added README and updated notes"
+
+git push
