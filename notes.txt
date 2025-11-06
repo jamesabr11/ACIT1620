@@ -1,3 +1,37 @@
 to create a new branch: git swithc -c feature/nav 
 how to switch to this new branch: git switch main
 how to merge: git merge feature/nav
+
+➜  WebDevGit git:(main) git config --global user.name "James Abramski"
+
+
+git config --list --show-origin
+listed all the configuration files system 
+
+git branch --show-current  
+
+git init
+
+git config --global init.deafultBranch main
+
+git config --global --get init.deafultBranch
+
+ git config --global core.editor            
+
+ git config --list --show-origin | grep -E 'core\.editor|color\.ui'
+
+ git help commit
+
+ git help -a
+
+ git help -g
+
+git help
+
+git help tutorial
+
+git help everyday
+
+Get-childItem - Force
+
+echo "# My Notes" > README.md    
